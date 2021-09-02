@@ -1,0 +1,24 @@
+{
+  "name": "backendfacerecognitionai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage":"http://Khaoulita-crypto.github.io/backendfacedetecter_v101",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.95.10",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
